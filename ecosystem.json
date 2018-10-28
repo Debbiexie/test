@@ -6,7 +6,7 @@
    "deploy" : {
      "production" : {
        "user" : "root",
-       "host" : ["47.74.147.83"],
+       "host" : ["47.74.147.183"],
        "port":"22",
        "ref"  : "origin/master",
        "repo" : "git@github.com:Debbiexie/test.git",
