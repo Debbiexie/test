@@ -4,15 +4,13 @@
       "script" : "app.js"
    }],
    "deploy" : {
-     // "production" is the environment name
      "production" : {
        "user" : "root",
        "host" : ["47.74.147.83"],
        "port":"22",
        "ref"  : "origin/master",
        "repo" : "git@github.com:Debbiexie/test.git",
-       "path" : "/www/",
-       "post-deploy" : "npm install; grunt dist"
+       "path" : "/root/www/"
       },
    }
 }
