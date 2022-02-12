@@ -6,4 +6,4 @@ http.createServer(function(req,res){
 	res.end('debi first web mp2')
 }).listen(8089)
 
-console.log('push test hhhh huyuuuu')
+console.log('push test last time')
